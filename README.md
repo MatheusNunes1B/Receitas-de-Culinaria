@@ -80,8 +80,6 @@ node server.js
 
 Deve aparecer:
 
-    URL: https://seu-projeto.supabase.co
-    KEY: eyJhbGciOi...
     API rodando na porta 3000
 
 ------------------------------------------------------------------------
@@ -160,19 +158,3 @@ Resposta esperada:
 ```
 
 ------------------------------------------------------------------------
-
-## 7. Observações
-
--   Certifique-se de que a tabela se chama **receitas** (tudo minúsculo,
-    sem espaços).
--   Todos os testes refletem imediatamente na tabela do Supabase.
--   Para filtrar por tempo ou dificuldade, é possível adicionar query
-    params e lógica no servidor (opcional).
-
-------------------------------------------------------------------------
-
-## 8. Próximos passos (opcional)
-
--   Criar filtros de tempo ou dificuldade.\
--   Adicionar paginação e ordenação.\
--   Implementar autenticação com Supabase Auth.
